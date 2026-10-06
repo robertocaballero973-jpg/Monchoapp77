@@ -1,11 +1,14 @@
-const CACHE_NAME = 'el-moncho-pwa-v2';
+const CACHE_NAME = 'el-moncho-pwa-v3';
 const APP_FILES = [
   '/',
   '/index.html',
   '/manifest.webmanifest',
   '/logo-192.png',
   '/logo-512.png',
-  '/logo-512-maskable.png'
+  '/logo-512-maskable.png',
+  '/pwa-192.png',
+  '/pwa-512.png',
+  '/pwa-512-maskable.png'
 ];
 
 self.addEventListener('install', event => {
